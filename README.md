@@ -2,7 +2,7 @@
 
 A small semantic search engine built in Python. It turns documents into
 embedding vectors, stores them in an index, and answers queries with
-cosine-similarity top-k search — accessible from both a command line and a REST API.
+cosine-similarity top-k search — accessible from a web UI, a command line, and a REST API.
 
 ## How it works
 
@@ -80,4 +80,4 @@ vector-search/
 - Swap `all-MiniLM-L6-v2` for a larger model or try TF-IDF from scratch
 - Add hybrid search that combines keyword (BM25) and vector scores
 - Index your own documents by dropping `.txt` files into `data/`
-- Add a simple frontend for visualizing results
+- Containerize with Docker for one-command deployment
