@@ -1,0 +1,1 @@
+A container packages an application with its dependencies into an isolated, lightweight unit that runs the same on any host. Docker images are built in layers and shared through registries, and containers start in seconds compared to virtual machines. Containers share the host kernel, so they are smaller than VMs but offer less isolation.

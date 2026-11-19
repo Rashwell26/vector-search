@@ -1,0 +1,1 @@
+An array stores elements in contiguous memory, allowing O(1) access to any index by computing an address offset. Inserting or deleting in the middle costs O(n) because later elements must shift. Dynamic arrays like Python lists resize by doubling capacity when full, giving amortized O(1) append. Contiguous storage makes arrays cache-friendly compared to linked lists.

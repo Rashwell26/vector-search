@@ -1,0 +1,1 @@
+Agile is an iterative approach where work is delivered in short sprints, typically one to four weeks. The team plans a small batch, builds it, demos it, and retrospects to improve. User stories describe features from the customer's perspective. Agile favors responding to change over following a fixed plan, supported by daily standups and continuous feedback.

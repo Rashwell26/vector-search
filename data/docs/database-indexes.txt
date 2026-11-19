@@ -1,0 +1,1 @@
+An index is an auxiliary data structure, usually a B-tree, that lets the database find rows without scanning the whole table. Queries filtered by indexed columns become much faster, but every index slows down inserts, updates, and deletes because it must be maintained. Composite indexes only help when the leading columns are used in the query.

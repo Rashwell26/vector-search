@@ -1,0 +1,1 @@
+Breadth-first search explores a graph level by level using a queue. It starts at a source node, visits all neighbors, then the neighbors of those neighbors. BFS finds the shortest path in an unweighted graph and is used for web crawling, social network degrees of separation, and puzzle solving. Its time complexity is O(V + E).

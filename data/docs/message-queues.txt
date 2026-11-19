@@ -1,0 +1,1 @@
+Message queues decouple services by letting a producer push work and a consumer process it asynchronously. This smooths traffic spikes, improves resilience when a consumer is down, and enables fan-out patterns with topics. Systems like RabbitMQ and Kafka also support ordering guarantees and retries, at the cost of added operational complexity.

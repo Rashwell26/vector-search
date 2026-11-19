@@ -1,0 +1,1 @@
+Recursion is when a function calls itself to solve a smaller instance of the same problem, until it reaches a base case that returns directly. Examples include tree traversal and the Fibonacci sequence. Every recursive call adds a frame to the call stack, so deep recursion can cause a stack overflow. Tail-call optimization can fix this when supported.

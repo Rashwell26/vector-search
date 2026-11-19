@@ -1,0 +1,1 @@
+A stack is last-in-first-out: push adds to the top, pop removes from the top. A queue is first-in-first-out: enqueue adds to the back, dequeue removes from the front. Stacks implement function calls, undo history, and expression parsing. Queues handle print jobs and task scheduling. Both can be built on arrays or linked lists.

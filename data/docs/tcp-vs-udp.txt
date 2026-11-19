@@ -1,0 +1,1 @@
+TCP is a reliable, connection-oriented protocol that orders packets, detects loss, and retransmits, making it suitable for web pages and file transfers. UDP is connectionless and fire-and-forget with no ordering guarantees, but it has lower latency, which suits video streaming, gaming, and DNS lookups. TCP achieves reliability through acknowledgements and sequence numbers.

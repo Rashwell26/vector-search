@@ -1,0 +1,1 @@
+A linked list stores values in nodes, each holding a value and a pointer to the next node. Inserting or deleting at the head is O(1), but accessing the nth element takes O(n) because there is no random access. Linked lists avoid shifting elements like arrays do, but they use extra memory for pointers and suffer poor cache locality.

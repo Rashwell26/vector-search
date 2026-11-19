@@ -1,0 +1,1 @@
+Authentication verifies who you are, for example with a password or a fingerprint. Authorization decides what you are allowed to do, typically with roles and permissions checked after login. A common flow is session tokens or JSON Web Tokens issued at login and attached to later requests. Confusing the two leads to security bugs where authenticated users access other users' data.

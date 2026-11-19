@@ -1,0 +1,1 @@
+A neural network layers matrices of weights with nonlinear activation functions like ReLU. Backpropagation computes gradients of the loss with respect to each weight, and an optimizer like Adam updates them. Deep networks with many layers learn hierarchical features, enabling image recognition and language models. Training needs large datasets and significant compute, often GPUs.

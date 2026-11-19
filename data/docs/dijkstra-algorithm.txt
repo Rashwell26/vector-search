@@ -1,0 +1,1 @@
+Dijkstra's algorithm finds the shortest path from one node to all others in a graph with non-negative edge weights. It greedily visits the unvisited node with the smallest known distance, updating its neighbors. Using a binary heap priority queue it runs in O((V + E) log V). It fails with negative edge weights, where the Bellman-Ford algorithm is used instead.

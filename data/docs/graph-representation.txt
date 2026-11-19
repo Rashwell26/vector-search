@@ -1,0 +1,1 @@
+Graphs can be stored as an adjacency matrix, a 2D array where cell (i, j) marks an edge, using O(V^2) space, or as an adjacency list mapping each vertex to its neighbors, using O(V + E) space. Sparse graphs favor adjacency lists; dense graphs with many edges favor matrices. Directed graphs store one-way edges, while undirected graphs store both directions.

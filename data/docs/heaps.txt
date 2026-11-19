@@ -1,0 +1,1 @@
+A heap is a complete binary tree where every parent is smaller than its children in a min-heap or larger in a max-heap. The root is always the minimum or maximum element. Heaps back priority queues and power heaps in heapsort. Insert and extract-min take O(log n), while peeking at the root is O(1). Arrays represent heaps efficiently using index arithmetic.

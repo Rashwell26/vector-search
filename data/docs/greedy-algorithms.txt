@@ -1,0 +1,1 @@
+A greedy algorithm makes the locally optimal choice at each step, hoping to reach a global optimum. It works for problems like activity selection, Huffman coding, and minimum spanning trees with Kruskal's or Prim's algorithm. Greedy methods are fast and simple, but they do not always produce the optimal answer, so correctness must be proven for each problem.

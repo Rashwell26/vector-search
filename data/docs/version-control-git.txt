@@ -1,0 +1,1 @@
+Git tracks changes to source code in a repository. Commits record snapshots, branches line of development, and merges combine them. The three areas are working directory, staging area, and repository. Distributed cloning gives everyone full history, enabling offline work. Git makes experimentation safe because any change can be reverted or compared with git diff.

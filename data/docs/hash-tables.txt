@@ -1,0 +1,1 @@
+A hash table maps keys to values using a hash function that converts a key into an array index. Average lookup, insert, and delete are O(1). Collisions happen when two keys hash to the same index and are resolved with chaining using linked lists or open addressing using probe sequences. A good hash function distributes keys evenly to avoid long chains.

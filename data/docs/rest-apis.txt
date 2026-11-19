@@ -1,0 +1,1 @@
+REST is an architectural style for web APIs using HTTP methods as verbs: GET reads, POST creates, PUT replaces, PATCH updates, and DELETE removes. Resources are identified by URLs, and stateless requests carry all context, often as JSON in the body. Good REST APIs use consistent naming, proper status codes, and support pagination for large collections.

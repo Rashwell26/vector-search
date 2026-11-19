@@ -1,0 +1,1 @@
+A process is an independent program in execution with its own memory space, while threads are lightweight units inside a process that share its memory. Context switching between processes is more expensive than between threads. Threads speed up parallel work but introduce race conditions, so synchronization with locks or queues is required when they share state.

@@ -1,0 +1,1 @@
+Virtual memory gives each process its own address space, mapping virtual addresses to physical RAM through page tables. Pages that are not in memory trigger page faults, and the OS swaps them in from disk. This lets programs run with less RAM than their address space requires and isolates processes from each other.

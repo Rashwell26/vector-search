@@ -1,0 +1,1 @@
+Caching stores frequently used results closer to the consumer to reduce latency and load. Common policies are least recently used, first in first out, and time to live expiration. Caches appear at many levels: browser, CDN, application memory, and database query cache. The main risk is staleness, so invalidation strategies must be designed deliberately.

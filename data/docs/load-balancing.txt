@@ -1,0 +1,1 @@
+A load balancer distributes incoming requests across multiple servers to avoid overload and improve availability. Algorithms include round robin, least connections, and IP hashing. Load balancers run at layer 4 forwarding packets or layer 7 understanding HTTP, and they perform health checks to remove failing servers from rotation.

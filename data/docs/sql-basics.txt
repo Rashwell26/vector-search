@@ -1,0 +1,1 @@
+SQL is the standard language for relational databases. SELECT retrieves rows, WHERE filters them, JOIN combines tables on related columns, and GROUP BY aggregates with functions like COUNT and AVG. Queries are declarative: you describe the result you want, and the database engine decides how to execute it using its query planner.

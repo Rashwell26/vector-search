@@ -1,0 +1,1 @@
+The OS scheduler decides which process runs on the CPU. Short-term scheduling chooses among ready processes using algorithms like round robin, first-come first-served, and shortest job first. Preemptive scheduling interrupts running processes to share CPU fairly, while non-preemptive scheduling runs to completion. The goal is high throughput, low response time, and fairness.

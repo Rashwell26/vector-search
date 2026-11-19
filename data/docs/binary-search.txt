@@ -1,0 +1,1 @@
+Binary search finds a target in a sorted array by repeatedly checking the middle element. If the target is smaller, search the left half; otherwise search the right half. Each step halves the search space, giving O(log n) time. The array must be sorted beforehand, and the classic implementation must carefully handle the mid index to avoid infinite loops.

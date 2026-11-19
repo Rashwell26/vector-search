@@ -1,0 +1,1 @@
+Transport Layer Security encrypts traffic between a client and server so eavesdroppers cannot read it. A handshake agrees on cipher suites, the server proves its identity with a certificate signed by a trusted certificate authority, and both sides derive shared session keys. TLS protects confidentiality and integrity, and its padlock icon signals an HTTPS connection.

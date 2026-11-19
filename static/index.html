@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vector Search</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>Vector Search</h1>
+      <p class="subtitle">Semantic search over a computer science corpus</p>
+      <span id="status-badge" class="status-badge">checking API…</span>
+    </header>
+
+    <form id="search-form" class="search-form">
+      <input
+        id="query-input"
+        class="query-input"
+        type="search"
+        placeholder="Ask anything about computer science…"
+        autocomplete="off"
+        aria-label="Search query"
+        required
+      >
+      <select id="k-select" class="k-select" aria-label="Number of results">
+        <option value="3">3</option>
+        <option value="5" selected>5</option>
+        <option value="10">10</option>
+      </select>
+      <button id="search-button" class="search-button" type="submit">Search</button>
+    </form>
+
+    <div class="examples">
+      <span class="examples-label">Try:</span>
+      <div id="examples" class="example-list"></div>
+    </div>
+
+    <div id="results-meta" class="results-meta" hidden>
+      <span id="latency" class="latency"></span>
+    </div>
+
+    <ol id="results" class="results">
+      <li class="empty-state">Type a query above to search the corpus.</li>
+    </ol>
+  </main>
+
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Regular expressions are a compact notation for matching patterns in text, built from literals, character classes like [0-9], quantifiers like * and +, and anchors like ^ and $. They power search, validation, and text cleanup. Finite automata implement them under the hood, so matching is linear in the input length. Nested quantifiers can cause catastrophic backtracking.

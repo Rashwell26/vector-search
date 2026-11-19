@@ -1,0 +1,1 @@
+Cloud computing delivers servers, storage, and services over the internet on demand. The main models are IaaS providing virtual machines, PaaS abstracting the runtime, and SaaS delivering complete applications. Public clouds like AWS, Azure, and Google Cloud offer pay-as-you-go pricing, elasticity to scale with demand, and global regions for low latency.

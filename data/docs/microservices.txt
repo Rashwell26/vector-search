@@ -1,0 +1,1 @@
+Microservices split an application into small independent services, each owning its own data and deploying separately. Services communicate over HTTP APIs or message queues. The style lets teams scale and release components independently, but it introduces network failures, distributed tracing, and data consistency challenges that a monolith does not have.

@@ -1,0 +1,1 @@
+Big-O notation describes how an algorithm's running time or memory use grows with input size, ignoring constants and lower-order terms. O(1) is constant time, O(log n) is logarithmic, O(n) is linear, O(n log n) is linearithmic, O(n^2) is quadratic, and O(2^n) is exponential. Choosing an algorithm with better big-O performance matters more than micro-optimizations as data grows.

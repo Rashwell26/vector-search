@@ -1,0 +1,1 @@
+The Domain Name System translates human-readable domain names like example.com into IP addresses. Queries are answered by a hierarchy of servers: local resolver, root servers, top-level domain servers, and authoritative name servers. Records include A for IPv4, AAAA for IPv6, and CNAME for aliases. DNS is usually cached, which speeds lookups but delays propagation of changes.

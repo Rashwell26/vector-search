@@ -1,0 +1,1 @@
+Depth-first search explores as far as possible along one branch before backtracking, using a stack or recursion. It is used for cycle detection, topological sorting, and maze solving. DFS has O(V + E) time complexity. Compared to BFS, it uses less memory on deep graphs but does not guarantee the shortest path in unweighted graphs.

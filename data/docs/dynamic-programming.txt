@@ -1,0 +1,1 @@
+Dynamic programming solves problems by breaking them into overlapping subproblems and storing their answers so they are computed only once. It works when a problem has optimal substructure, like the knapsack problem or edit distance. The two main techniques are bottom-up tabulation filling a table iteratively and top-down memoization with recursion.

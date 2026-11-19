@@ -1,0 +1,1 @@
+File systems organize storage into files, directories, and metadata. Inodes or file table entries store attributes like size and permissions, while blocks hold the actual data. FAT, ext4, NTFS, and APFS differ in journaling, crash recovery, and support for features like snapshots. Journaling file systems log changes before applying them so crashes do not corrupt the structure.
